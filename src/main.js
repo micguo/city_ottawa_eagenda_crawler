@@ -1,24 +1,26 @@
-var Crawler = require("crawler");
+"use strict";
 
+var Crawler = require("crawler"),
+    Parser = require("./parser");
 
 var c = new Crawler({
     maxConnections : 10,
     // This will be called for each crawled page
     callback : function (error, res, done) {
+        var data;
         if(error){
             console.log(error);
         }else{
             var $ = res.$;
-            // $ is Cheerio by default
-            //a lean implementation of core jQuery designed specifically for the server
-            console.log($.text());
+            data = Parser.parse($);
         }
+        console.log(data);
         done();
     }
 });
 
 // Queue just one URL, with default callback
 c.queue([{
-	'uri': 'http://app05.ottawa.ca/sirepub/mtgviewer.aspx?meetid=6977',
-	'userAgent': 'Mozilla/5.0',
+    "uri": "http://app05.ottawa.ca/sirepub/meetresults.aspx?view=Search&startdate=2017-May-01&enddate=2017-May-31",
+    "userAgent": "Mozilla/5.0"
 }]);
