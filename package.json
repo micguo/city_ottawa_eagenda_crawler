@@ -1,0 +1,23 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "Scotch Box ==========",
+  "main": "index.js",
+  "dependencies": {
+    "crawler": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotch-io/scotch-box.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scotch-io/scotch-box/issues"
+  },
+  "homepage": "https://github.com/scotch-io/scotch-box#readme"
+}
