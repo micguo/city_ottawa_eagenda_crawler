@@ -1,8 +1,8 @@
 {
-  "name": "www",
-  "version": "1.0.0",
-  "description": "Scotch Box ==========",
-  "main": "index.js",
+  "name": "City of Ottawa eAgent Crawler",
+  "version": "0.0.1",
+  "description": "a crawler implementation based on nodejs crwaler",
+  "main": "main.js",
   "dependencies": {
     "crawler": "^1.0.5"
   },
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scotch-io/scotch-box.git"
+    "url": "https://github.com/micguo/city_ottawa_eagenda_crawler.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "micguo",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scotch-io/scotch-box/issues"
+    "url": "https://github.com/micguo/city_ottawa_eagenda_crawler/issues"
   },
-  "homepage": "https://github.com/scotch-io/scotch-box#readme"
+  "homepage": "https://github.com/micguo/city_ottawa_eagenda_crawler"
 }
