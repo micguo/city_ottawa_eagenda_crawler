@@ -4,6 +4,7 @@
   "description": "a crawler implementation based on nodejs crwaler",
   "main": "main.js",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "crawler": "^1.0.5"
   },
   "devDependencies": {
