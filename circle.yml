@@ -1,3 +1,8 @@
 machine:
   node:
     version: 6.10.2
+    PATH: ${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin
+    NODE_ENV: test
+  dependencies:
+    override:
+      - npm prune && npm install
