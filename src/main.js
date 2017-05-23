@@ -1,18 +1,19 @@
 "use strict";
 
-var Crawler = require("crawler"),
+let Crawler = require("crawler"),
     Parser = require("./parser");
 
-var c = new Crawler({
+let c = new Crawler({
     maxConnections : 10,
     // This will be called for each crawled page
     callback : function (error, res, done) {
-        var data;
+        let data;
+        let a;
         if(error){
             console.log(error);
         }else{
-            var $ = res.$;
-            data = Parser.parse($);
+            a = res.$;
+            data = Parser.parse(a);
         }
         console.log(data);
         done();
