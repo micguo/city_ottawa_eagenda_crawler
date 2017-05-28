@@ -1,11 +1,13 @@
 {
-  "name": "ottawa_eagent_crawler",
+  "name": "ottawa_eagenda_crawler",
   "version": "0.0.1",
   "description": "a crawler implementation based on nodejs crwaler",
-  "main": "main.js",
+  "main": "src/main.js",
   "dependencies": {
     "cheerio": "^0.22.0",
-    "crawler": "^1.0.5"
+    "crawler": "^1.0.5",
+    "minimist": "^1.2.0",
+    "dateformat": "^2.0.0"
   },
   "devDependencies": {
     "mocha": "^3.4.1",
@@ -23,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/micguo/city_ottawa_eagenda_crawler/issues"
   },
-  "homepage": "https://github.com/micguo/city_ottawa_eagenda_crawler"
+  "homepage": "https://github.com/micguo/city_ottawa_eagenda_crawler",
+  "bin": {
+    "ottawa_eagenda_crawler": "bin/cli.js"
+  }
 }
