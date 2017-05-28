@@ -23,13 +23,10 @@ if (argv.help !== undefined ||
     argv.enddate === undefined ||
     null === argv.enddate.match(/^\d{4}-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])$/)
 ) {
-  console.log(argv);
-  showCommandOpt();
-  return;
+    console.log(argv);
+    showCommandOpt();
+} else {
+    // let's start
+    ottawaeAgendaCrawler.run(Date.parse(argv.startdate + " EST"), Date.parse(argv.enddate + "EST"));
 }
-
-// let start
-let timezoneDifference = (new Date()).getTimezoneOffset();
-ottawaeAgendaCrawler.run(Date.parse(argv.startdate + " EST"), Date.parse(argv.enddate + "EST"));
-
 
