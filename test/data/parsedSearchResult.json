@@ -1,14 +1,100 @@
-[ { "id": "7003" },
-  { "id": "6994" },
-  { "id": "7027" },
-  { "id": "6979" },
-  { "id": "7069" },
-  { "id": "6955" },
-  { "id": "7043" },
-  { "id": "7059" },
-  { "id": "7173" },
-  { "id": "7116" },
-  { "id": "7039" },
-  { "id": "6980" },
-  { "id": "7171" },
-  { "id": "7156" } ]
+[
+  {
+    "id":"7003",
+    "title":"Finance and Economic Development Committee",
+    "date":"2017-May-02",
+    "time":"9:30 AM",
+    "contact":"<div class=\"email_overflow\">Carole Legault<br><span class=\"smallFont\">613-580-2424 x28934</span><br><span class=\"smallFont\">\r\n                Email: carolea.legault@ottawa.ca</span></div>"
+  },
+  {
+    "id":"6994",
+    "title":"Transportation Committee",
+    "date":"2017-May-03",
+    "time":"9:30 AM",
+    "contact":"<div class=\"email_overflow\">Rosemary Theriault<br><span class=\"smallFont\">613-580-2424 x21624</span><br><span class=\"smallFont\">\r\n                Email: rosemary.theriault@ottawa.ca</span></div>"
+  },
+  {
+    "id":"7027",
+    "title":"Agriculture and Rural Affairs Committee",
+    "date":"2017-May-04",
+    "time":"10:00 AM",
+    "contact":"<div class=\"email_overflow\">Marc Desjardins<br><span class=\"smallFont\">613-580-2424 x28821</span><br><span class=\"smallFont\">\r\n                Email: Marc.Desjardins@ottawa.ca</span></div>"
+  },
+  {
+    "id":"6979",
+    "title":"Planning Committee",
+    "date":"2017-May-09",
+    "time":"9:30 AM",
+    "contact":"<div class=\"email_overflow\">Melody Duffenais<br><span class=\"smallFont\">613-580-2424 x20113</span><br><span class=\"smallFont\">\r\n                Email: Melody.duffenais@ottawa.ca</span></div>"
+  },
+  {
+    "id":"7069",
+    "title":"Ottawa Public Library Board",
+    "date":"2017-May-09",
+    "time":"5:00 PM",
+    "contact":"<div class=\"email_overflow\">Julie Tremblay<br><span class=\"smallFont\">613-580-2424 x32169</span><br><span class=\"smallFont\">\r\n                Email: <a href=\"mailto:Julie.Tremblay@BiblioOttawaLibrary.ca\">Julie.Tremblay@BiblioOttawaLibrary.ca</a></span></div>"
+  },
+  {
+    "id":"6955",
+    "title":"City Council",
+    "date":"2017-May-10",
+    "time":"10:00 AM",
+    "contact":"<div class=\"email_overflow\">Caitlin Salter MacDonald<br><span class=\"smallFont\">613-580-2424 x28136</span><br><span class=\"smallFont\">\r\n                Email: Caitlin.Salter-MacDonald@Ottawa.ca</span></div>"
+  },
+  {
+    "id":"7043",
+    "title":"Built Heritage Sub-Committee",
+    "date":"2017-May-11",
+    "time":"9:30 AM",
+    "contact":"<div class=\"email_overflow\">Rosemary Theriault<br><span class=\"smallFont\">613-580-2424 ext. 21624</span><br><span class=\"smallFont\">\r\n                Email: Rosemary.Theriault@ottawa.ca</span></div>"
+  },
+  {
+    "id":"7059",
+    "title":"French Language Services Advisory Committee",
+    "date":"2017-May-11",
+    "time":"6:30 PM",
+    "contact":"<div class=\"email_overflow\">Carole Legault<br><span class=\"smallFont\">613-580-2424 x28934</span><br><span class=\"smallFont\">\r\n                Email: CaroleA.Legault@ottawa.ca</span></div>"
+  },
+  {
+    "id":"7173",
+    "title":"Police Services Board Human Resources Committee",
+    "date":"2017-May-16",
+    "time":"1:30 PM",
+    "contact":"<div class=\"email_overflow\">Krista Ferraro<br><span class=\"smallFont\">613-580-2424, ext. 21618</span><br><span class=\"smallFont\">\r\n                Email: <a href=\"mailto:krista.ferraro@ottawa.ca\">krista.ferraro@ottawa.ca</a></span></div>"
+  },
+  {
+    "id":"7116",
+    "title":"Accessibility Advisory Committee",
+    "date":"2017-May-16",
+    "time":"6:30 PM",
+    "contact":"<div class=\"email_overflow\">Carole Legault<br><span class=\"smallFont\">613-580-2424 x28934</span><br><span class=\"smallFont\">\r\n                Email: CaroleA.Legault@ottawa.ca</span></div>"
+  },
+  {
+    "id":"7039",
+    "title":"Community and Protective Services Committee",
+    "date":"2017-May-18",
+    "time":"9:30 AM",
+    "contact":"<div class=\"email_overflow\">Marc Desjardins<br><span class=\"smallFont\">613-580-2424 ext. 28821</span><br><span class=\"smallFont\">\r\n                Email: Marc.Desjardins@ottawa.ca</span></div>"
+  },
+  {
+    "id":"6980",
+    "title":"Planning Committee",
+    "date":"2017-May-23",
+    "time":"9:30 AM",
+    "contact":"<div class=\"email_overflow\">Melody Duffenais<br><span class=\"smallFont\">613-580-2424 x20113</span><br><span class=\"smallFont\">\r\n                Email: Melody.duffenais@ottawa.ca</span></div>"
+  },
+  {
+    "id":"7171",
+    "title":"Arts, Culture, Heritage and Recreation Advisory Committee",
+    "date":"2017-May-23",
+    "time":"6:30 PM",
+    "contact":"<div class=\"email_overflow\">Kelly Crozier<br><span class=\"smallFont\">613-580-2424 ext. 16875</span><br><span class=\"smallFont\">\r\n                Email: kelly.crozier@ottawa.ca</span></div>"
+  },
+  {
+    "id":"7156",
+    "title":"Audit Committee",
+    "date":"2017-May-25",
+    "time":"9:30 AM",
+    "contact":"<div class=\"email_overflow\">Carole Legault<br><span class=\"smallFont\">613-580-2424 x28934</span><br><span class=\"smallFont\">\r\n                Email: carolea.legault@ottawa.ca</span></div>"
+  }
+]

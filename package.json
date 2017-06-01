@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "a crawler implementation based on nodejs crwaler",
   "main": "src/main.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "dependencies": {
     "cheerio": "^0.22.0",
     "crawler": "^1.0.5",
