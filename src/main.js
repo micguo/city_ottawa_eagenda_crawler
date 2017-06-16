@@ -15,7 +15,7 @@ let c = new Crawler({
             a = res.$;
             data = Parser.parse(a);
         }
-        console.log(data);
+        console.log(JSON.stringify(data));
         done();
     }
 });
